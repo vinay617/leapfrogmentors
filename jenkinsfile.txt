@@ -1,0 +1,26 @@
+pipeline	{
+	agent any	{
+		stages	{
+			stage('one'){
+				steps{
+					echo "hi, this is vinay"
+				           }
+				   }
+			stage('two'){
+				steps{
+					input( "Do u want to proceed?")
+				           }
+				   }
+			stage('three'){
+				steps{
+					echo "hi, this is vinay"
+				           }
+				   }
+			stage('four'){
+				steps{
+					echo "hi, this is vinay"
+				           }
+				   }
+			}
+		}
+	}	
